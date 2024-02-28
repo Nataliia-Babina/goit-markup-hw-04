@@ -258,9 +258,22 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 72px)/4);
 }
 
+.contanier-blog {
+  display: flex;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  align-content: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;  
+}
+
+
 /* =========== Our Team Section styles =========== */
 .name {
     padding: 32px 0;
+    
 }
 .our-team-section {
     background-color: #F4F4FD;
@@ -312,19 +325,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-text-align: center;
+
 }
 
-.social-media-menu-mark {
+.social-media-menu-team {
     display: flex;
     gap: 24px;
     justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
-.social-media-list-mark {
-    justify-content: center;
-    align-items: center;
-}
 
 
 /* =========== /Our Team Section styles =========== */
@@ -477,10 +488,14 @@ width:264px;
         width: 40px;
         height: 40px;
     fill: #f4f4fd;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-coloк 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-media-link:hover 
+.social-media-link:hover, 
 .social-media-link:focus {
-color: #31D0AA;
+background-color: #31D0AA;
 }
+.social-media-icon {
+    fill: #f4f4fd;
+}
+
 /* =========== /Footer Section styles =========== */
