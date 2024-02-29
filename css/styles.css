@@ -470,6 +470,7 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 width:264px;
 
+
 }
 .logo-footer {
     font-family: "Raleway", sans-serif;
@@ -541,13 +542,16 @@ background-color: #31d0aa;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.footer-page-container {
-    margin-right: 120px;
-    align-items: baseline;
+.footer-contanier {
     
-
+    align-items: baseline;
+    display: flex;
+    
 }
 
+.footer-page-container {
+margin-right: 120px;
+}
 .social-media-list {
     width: 40px;
     height: 40px;
