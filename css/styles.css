@@ -116,19 +116,17 @@ background-color: #404bbf;
 }
 
 .current {
-    color: #404bbf;
+color: #404bbf;
 }
 .page-adress {
     font-style: normal;
     margin-left: auto;
 
-
 }
 .menu-adress {
     display: flex;
     gap: 40px
-    
-    
+        
 }
 .adress-info {
     font-family: "Roboto", sans-serif;
